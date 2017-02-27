@@ -10,7 +10,6 @@ var path = require('path'),
     errorHandler = require('errorhandler');
 
 module.exports = function (app) {
-    //configuration code ...
     //setting Handlebars as the rendering engine of choice
 
     app.engine('hbs', hbs.create({
